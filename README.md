@@ -1,8 +1,14 @@
 # Server Side Hong Kong Siren Pack for FiveM
 
-As this is an add-on, the vanilla siren hashes will not work automatically. You will need to edit your vehicle and ELS configuration files to correctly use this custom siren pack.
+As this is an add-on, the vanilla siren hashes will not work automatically. You will need to edit your vehicle and ELS configuration files to use this custom siren pack correctly.
+
+## Installation
+1. Download the `.zip` file from the latest release.
+2. Extract the folder to your server's `resources` directory.
+3. Add `ensure hksirenpack` to your `server.cfg`.
 
 ## ELS-FiveM Configuration
+Since this audio is an Add-On, standard native audio strings will not function. To use these sounds in your scripts, you must specify the custom audio string and ensure the audio bank is properly loaded.
 
 ### 1. Vehicle XML Configuration
 For each vehicle you want to modify, follow these steps:
@@ -60,8 +66,6 @@ PlaySoundFromEntity(h_soundID_veh[veh], getVehicleVCFInfo(veh).sounds.mainHorn.a
 PlaySoundFromEntity(h_soundID_veh[veh], getVehicleVCFInfo(veh).sounds.mainHorn.audioString, veh, 'HKSIRENPACK', 0, 0)
 ```
 
----
-
 ## Other ELS Scripts
 If you are using a different ELS script, you may need to consult the specific documentation provided by the author to find out how to change audio strings and sound banks. Here are a few common ones:
 
@@ -69,6 +73,8 @@ If you are using a different ELS script, you may need to consult the specific do
 * **ScriptsM-ELS:** [Documentation](https://scriptsm-documentation.vercel.app/ScriptsM-ELS)
 
 *(There are many custom ELS resources, it is impossible to list the instructions for all of them. The logic, however, remains similar to the steps above.)*
+
+---
 
 ## Sound Set and Bank Configuration
 When configuring, use the following:
