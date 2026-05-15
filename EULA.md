@@ -1,0 +1,2 @@
+## End User Licence Agreement (EULA)
+Original siren files are produced by 9032AP [https://www.lcpdfr.com/profile/475836-9032ap]. Current release is permitted and supported by 9032AP. You are allowed to host these as server-sided asset or as local files. No unauthorised online or offline redistribution of this mod pack is allowed unless permission is granted by both 9032AP and GaryLuk. By downloading the files, you agree to this EULA. Any unauthorised form of redistribution may face legal actions by 9032AP.
